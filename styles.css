@@ -1,0 +1,62 @@
+/* Estilos generales para todas las páginas */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el navbar */
+.navbar {
+    background-color: #007bff !important;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+/* Estilos personalizados */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo del párrafo */
+#miparrafo {
+    color: aqua;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Estilo del botón */
+.mi-boton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mi-boton:hover {
+    background-color: #c82333;
+}
+
+
